@@ -14,7 +14,7 @@ getgenv().Fov = 100 -- semi legit Rev: 9, 8, 8.5, 7.6, 7.5, 7.3
                    -- Rev(far): 4, 3.8, 3.6, 3.4, 3.2, 3, 2.8
                    -- Shotgun: 7, 6.8, 6.7, 6.5, 6.3, 6.1, 6, 5.7, 5.5, 5.3
 
-getgenv().ShowFOV = false
+getgenv().ShowFOV = true
 
 getgenv().MacroKey = "x" -- to use the built in lua macro
 
@@ -60,7 +60,7 @@ local CurrentCamera = Workspace.CurrentCamera
  
     AimLock = false,
  
-    Prediction = 0.28,
+    Prediction = 0.26,
  
     AimLockKeybind = Enum.KeyCode.E,
  
