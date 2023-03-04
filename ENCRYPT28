@@ -60,7 +60,7 @@ local CurrentCamera = Workspace.CurrentCamera
  
     AimLock = false,
  
-    Prediction = 0.2,
+    Prediction = 0.27,
  
     AimLockKeybind = Enum.KeyCode.E,
  
