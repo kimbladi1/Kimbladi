@@ -1,7 +1,7 @@
 --sub to halal gaming
 getgenv().FovKey = "b" -- fov switch key, if you dont wanna look blatant long range rev
 
-getgenv().Parts = {"Head", "HumanoidRootPart, UpperTorso","LeftHand","RightHand","LeftFoot","UpperTorso","RightFoot"} -- {"Head", "HumanoidRootPart"}
+getgenv().Parts = {"Head", "HumanoidRootPart"} -- {"Head", "HumanoidRootPart"}
 
 getgenv().Hitchance = 100
 
