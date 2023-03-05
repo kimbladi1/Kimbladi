@@ -2,6 +2,7 @@
 getgenv().FovKey = "b" -- fov switch key, if you dont wanna look blatant long range rev
 
 getgenv().Parts = {"Head","UpperTorso","HumanoidRootPart","LowerTorso","LeftHand","RightHand","LeftLowerArm","RightLowerArm","LeftUpperArm","RightUpperArm","LeftFoot","LeftLowerLeg","LeftUpperLeg","RightLowerLeg","RightFoot","RightUpperLeg"}
+
 getgenv().Hitchance = 100
 
 getgenv().Fov = 100 -- semi legit Rev: 9, 8, 8.5, 7.6, 7.5, 7.3
