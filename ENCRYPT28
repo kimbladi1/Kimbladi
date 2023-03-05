@@ -1,7 +1,7 @@
 --sub to halal gaming
 getgenv().FovKey = "b" -- fov switch key, if you dont wanna look blatant long range rev
 
-getgenv().Parts = {"Head", "HumanoidRootPart"} -- {"Head", "HumanoidRootPart"}
+getgenv().Parts = {"Head","UpperTorso","HumanoidRootPart","LowerTorso","LeftHand","RightHand","LeftLowerArm","RightLowerArm","LeftUpperArm","RightUpperArm","LeftFoot","LeftLowerLeg","LeftUpperLeg","RightLowerLeg","RightFoot","RightUpperLeg"} -- {"Head", "HumanoidRootPart"}
 
 getgenv().Hitchance = 100
 
@@ -60,7 +60,7 @@ local CurrentCamera = Workspace.CurrentCamera
  
     AimLock = false,
  
-    Prediction = 0.2,
+    Prediction = 0.1923111,
  
     AimLockKeybind = Enum.KeyCode.E,
  
