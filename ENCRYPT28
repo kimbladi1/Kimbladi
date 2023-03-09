@@ -1,11 +1,11 @@
 --sub to halal gaming
 getgenv().FovKey = "b" -- fov switch key, if you dont wanna look blatant long range rev
 
-getgenv().Parts = {"Head","UpperTorso","HumanoidRootPart","LowerTorso","LeftHand","RightHand","LeftFoot","RightFoot"}
+getgenv().Parts = {"Head","UpperTorso","HumanoidRootPart","LowerTorso"}
 
 getgenv().Hitchance = 100
 
-getgenv().Fov = 20 -- semi legit Rev: 9, 8, 8.5, 7.6, 7.5, 7.3
+getgenv().Fov = 50 -- semi legit Rev: 9, 8, 8.5, 7.6, 7.5, 7.3
                    -- Rev(far): 7, 6.7, 6.4, 5.6, 5.3
                    -- Shotgun: 12, 11, 10, 10.5, 9.8, 9.4,
                    ------------------
@@ -14,7 +14,7 @@ getgenv().Fov = 20 -- semi legit Rev: 9, 8, 8.5, 7.6, 7.5, 7.3
                    -- Rev(far): 4, 3.8, 3.6, 3.4, 3.2, 3, 2.8
                    -- Shotgun: 7, 6.8, 6.7, 6.5, 6.3, 6.1, 6, 5.7, 5.5, 5.3
 
-getgenv().ShowFOV = false
+getgenv().ShowFOV = true
 
 getgenv().MacroKey = "x" -- to use the built in lua macro
 
